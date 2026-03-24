@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Connecting lines -->
+  <line x1="60" y1="80" x2="100" y2="140" stroke="#1f2937" stroke-width="4" opacity="0.3"/>
+  <line x1="140" y1="80" x2="100" y2="140" stroke="#1f2937" stroke-width="4" opacity="0.3"/>
+  <line x1="60" y1="80" x2="140" y2="80" stroke="#1f2937" stroke-width="4" opacity="0.3"/>
+  
+  <!-- Node 1: Teal -->
+  <circle cx="60" cy="80" r="28" fill="#0d9488"/>
+  <circle cx="60" cy="80" r="14" fill="#fef3c7" opacity="0.3"/>
+  
+  <!-- Node 2: Coral -->
+  <circle cx="140" cy="80" r="28" fill="#fb7185"/>
+  <circle cx="140" cy="80" r="14" fill="#fef3c7" opacity="0.3"/>
+  
+  <!-- Node 3: Cream/Dark -->
+  <circle cx="100" cy="140" r="28" fill="#fef3c7" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="100" cy="140" r="12" fill="#1f2937"/>
+</svg>
