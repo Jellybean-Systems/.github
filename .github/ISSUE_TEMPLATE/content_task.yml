@@ -1,0 +1,99 @@
+name: 📹 Content Task
+description: Video, blog post, or social media content
+title: "[Content] "
+labels: ["content", "marketing"]
+assignees: []
+
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Content Type
+      description: What kind of content?
+      options:
+        - YouTube Video
+        - Blog Post
+        - Twitter/X Thread
+        - Reddit Post
+        - LinkedIn Post
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Working Title
+      description: Proposed title for this content
+      placeholder: "How TokenSaver Cut Our AI Costs by 99.6%"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What's this content about?
+      placeholder: "This video will explain..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: keypoints
+    attributes:
+      label: Key Points to Cover
+      description: Main messages or takeaways
+      placeholder: |
+        - Point 1
+        - Point 2
+        - Point 3
+      value: |
+        - 
+        - 
+        - 
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Current Status
+      options:
+        - Idea
+        - Script/Outline Ready
+        - In Production
+        - Ready for Review
+        - Scheduled
+        - Published
+    validations:
+      required: true
+
+  - type: input
+    id: publish_date
+    attributes:
+      label: Target Publish Date
+      description: When should this go live?
+      placeholder: "2026-03-28"
+
+  - type: textarea
+    id: distribution
+    attributes:
+      label: Distribution Channels
+      description: Where will this be shared?
+      value: |
+        - [ ] YouTube
+        - [ ] Twitter/X
+        - [ ] Reddit
+        - [ ] LinkedIn
+        - [ ] Discord
+        - [ ] Product Hunt
+        - [ ] Other: ___________
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - P0 - Critical (blocks launch)
+        - P1 - High (part of current sprint)
+        - P2 - Medium (important but flexible)
+        - P3 - Low (backlog)

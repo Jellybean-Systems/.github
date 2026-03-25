@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/jellybean-systems/REPO_NAME/discussions
+    about: Please ask questions or share ideas here
+  - name: Security Vulnerability
+    url: https://github.com/jellybean-systems/REPO_NAME/security/advisories
+    about: Please report security vulnerabilities here (do not open public issues)
+  - name: Documentation
+    url: https://github.com/jellybean-systems/REPO_NAME/tree/main/docs
+    about: Check the documentation before opening an issue

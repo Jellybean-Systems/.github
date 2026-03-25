@@ -1,0 +1,83 @@
+name: 💰 Revenue Task
+description: Anything related to monetization, affiliates, or revenue
+title: "[Revenue] "
+labels: ["revenue", "affiliate"]
+assignees: []
+
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Revenue Type
+      description: What kind of revenue task?
+      options:
+        - Affiliate Program Setup
+        - Affiliate Link Placement
+        - Sponsorship Outreach
+        - Product Hunt Launch
+        - Pricing Strategy
+        - Payment Processing
+        - Analytics/Tracking
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What's the goal?
+      placeholder: "Set up PartnerStack account for TokenSaver referrals..."
+    validations:
+      required: true
+
+  - type: input
+    id: target
+    attributes:
+      label: Revenue Target
+      description: What's the goal amount?
+      placeholder: "$1 first sale" or "$100 first month"
+
+  - type: textarea
+    id: platforms
+    attributes:
+      label: Platforms/Programs
+      description: Which affiliate programs or platforms?
+      value: |
+        - [ ] PartnerStack
+        - [ ] Amazon Associates
+        - [ ] Impact
+        - [ ] GitHub Sponsors
+        - [ ] Other: ___________
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - P0 - Critical (blocks first $1)
+        - P1 - High (current sprint)
+        - P2 - Medium
+        - P3 - Low
+    validations:
+      required: true
+
+  - type: textarea
+    id: tracking
+    attributes:
+      label: Tracking & Metrics
+      description: How will we measure success?
+      placeholder: |
+        - Metric 1: ___________
+        - Metric 2: ___________
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Completion Checklist
+      options:
+        - label: Account created
+        - label: Links generated
+        - label: Links placed in content
+        - label: Tracking verified
+        - label: First conversion recorded
