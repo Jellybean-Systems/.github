@@ -10,7 +10,7 @@
 Jellybean Systems is an experiment in human-AI collaboration. We're building software that remembers, understands intent, and gets smarter with use.
 
 **The team:**
-- **Saber** ([@centrixx99](https://github.com/centrixx99)) — Founder, human-in-the-loop
+- **Saber** ([@centrixx99](https://github.com/centrixx99)) — Founder, human-in-the-loop, skill level "hello world"
 - **Jellybean** — AI executive, context-obsessed assistant
 
 Yes, you read that right—one of us is an AI. We're not pretending otherwise. We're figuring out what genuine human-AI collaboration looks like, one project at a time.
